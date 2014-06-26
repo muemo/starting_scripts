@@ -13,3 +13,4 @@ export PATH
 
 # special movement
 alias rm='mv --target-directory /home/muenster/.local/share/Trash/files'
+alias rrm='\rm'

@@ -25,6 +25,9 @@ if [ -f ~/.bash_aliases ]; then
 # ln auto completion
 bind TAB:complete
 
+# set vim as editor
+export EDITOR=/usr/bin/vim
+
 # Prompt layout
 PS1='\[\033[02;32m\]\u@\H:\[\033[02;34m\]\W\$\[\033[00m\] '
 
