@@ -37,8 +37,6 @@ alias ll='ls -gGht --color=auto'
 # Filemovment
 alias mv='mv -v'
 alias cp='cp -v'
-alias rm='mv --target-directory /home/$USER/.local/share/Trash/files'
-alias rrm='\rm'
 
 # Other
 alias ..='cd ..'
