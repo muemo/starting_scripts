@@ -22,6 +22,8 @@ shopt -s checkwinsize
 if [ -f ~/.bash_aliases ]; then
         . ~/.bash_aliases
     fi
+# ln auto completion
+bind TAB:complete
 
 # Prompt layout
 PS1='\[\033[02;32m\]\u@\H:\[\033[02;34m\]\W\$\[\033[00m\] '
