@@ -1,2 +1,4 @@
-starting_scripts
+Starting Scripts
 ================
+
+Standard scripts to setting up linux installations.
