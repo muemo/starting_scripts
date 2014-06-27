@@ -1,0 +1,16 @@
+# .bash_aliases for pacws
+export SCHRODINGER_LICENSE_RETRY=240h
+export SCHRODINGER_MAX_RETRIES=240000
+
+# global Variables
+export WATSITEHOME=/home/muenster/Desktop/wat_site/WATsite
+export GROMACSHOME=/software/gromacs464
+export reduce_exe_dir=$AMBERHOME/bin
+
+# PATH
+PATH=/usr/local/epd7/bin:$PATH:/home/muenster/bin/md:/home/muenster/bin/waterdock:/home/muenster/bin/screening:/home/muenster/bin/dsx:/home/muenster/local/bin:/home/muenster/bin/mona
+export PATH
+
+# special movement
+alias rm='mv --target-directory /home/muenster/.local/share/Trash/files'
+alias rrm='\rm'
