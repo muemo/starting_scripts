@@ -4,7 +4,9 @@ echo "mint oder pac?"
 read ALI
 
 for i in ~/.bash_profile ~/.bash_aliases ~/.bashrc ~/.tmux.conf ~/.vimrc; do 
-	mv ${i} ${i}.backup
+	if [ -e $i ]; then
+		mv ${i} ${i}.backup
+	fi
 done
 
 cp .bashrc .tmux.conf .vimrc ~/
