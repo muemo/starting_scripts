@@ -32,6 +32,7 @@ export EDITOR=/usr/bin/vim
 PS1='\[\033[02;32m\]\u@\H:\[\033[02;34m\]\W\$\[\033[00m\] '
 
 # Some ls aliases
+alias ls='ls --color=auto'
 alias li='ls -l --color=auto'
 alias l='ls -tA --color=auto'
 alias la='ls -all --color=auto'
