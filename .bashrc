@@ -43,6 +43,7 @@ alias mv='mv -v'
 alias cp='cp -v'
 
 # Other
+export hpc='fcra008@hpclogin.rrz.uni-hamburg.de'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias size='du -hsc ./*'
@@ -51,4 +52,3 @@ alias ssx='ssh -X'
 alias hpc_cluster='sshfs fcra008@hpclogin.rrz.uni-hamburg.de:/G/scratch/fcra008 ~/hpc_cluster'
 alias fc_cluster='sshfs fcra007@fc-login.rrz.uni-hamburg.de:moritz ~/fc_cluster'
 alias gt='gedit'
-
