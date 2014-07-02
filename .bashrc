@@ -19,9 +19,6 @@ HISTTIMEFORMAT="%d.%m.%Y %T "
 # update the values of LINES and COLUMNS.
 shopt -s checkwinsize
 
-if [ -f ~/.bash_aliases ]; then
-        . ~/.bash_aliases
-    fi
 # ln auto completion
 bind TAB:complete
 
@@ -52,3 +49,8 @@ alias ssx='ssh -X'
 alias hpc_cluster='sshfs fcra008@hpclogin.rrz.uni-hamburg.de:/G/scratch/fcra008 ~/hpc_cluster'
 alias fc_cluster='sshfs fcra007@fc-login.rrz.uni-hamburg.de:moritz ~/fc_cluster'
 alias gt='gedit'
+#PC-spezifische Aliase
+if [ -f ~/.bash_aliases ]; then
+        . ~/.bash_aliases
+    fi
+
