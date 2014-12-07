@@ -1,4 +1,4 @@
 Starting Scripts
 ================
 
-Standard scripts to setting up linux installations.
+Standard scripts to set up linux installations.
