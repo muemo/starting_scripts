@@ -22,6 +22,11 @@ shopt -s checkwinsize
 # ln auto completion
 bind TAB:complete
 
+#autocomplete at sudo
+if [ "$PS1" ]; then
+complete -cf sudo
+fi
+
 # set vim as editor
 export EDITOR=/usr/bin/vim
 
@@ -52,5 +57,5 @@ alias gt='gedit'
 #PC-spezifische Aliase
 if [ -f ~/.bash_aliases ]; then
         . ~/.bash_aliases
-    fi
+fi
 
