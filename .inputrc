@@ -1,0 +1,6 @@
+# 8-bit-flag
+set input-meta on
+set output-meta on
+set convert-meta off
+# autocompletion for symbolic links
+set mark-symlinked-directories on
