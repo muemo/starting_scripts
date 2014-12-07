@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-#echo "mint oder pac?" 
-#read ALI
 
 for i in ~/.bash_profile ~/.bashrc ~/.tmux.conf ~/.vimrc ~/.inputrc; do 
 	if [ -e $i ]; then
@@ -10,5 +8,4 @@ for i in ~/.bash_profile ~/.bashrc ~/.tmux.conf ~/.vimrc ~/.inputrc; do
 done
 
 cp .bashrc .tmux.conf .vimrc .inputrc ~/
-#cp .bash_aliases_${ALI} ~/.bash_aliases
 echo 'source ~/.bashrc' > ~/.bash_profile
