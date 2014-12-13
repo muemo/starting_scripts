@@ -13,9 +13,10 @@ if &t_Co > 2 || has("gui_running")
   set hlsearch
 endif
 filetype plugin indent on
-set nu
+set number
 set cmdheight=1 "The commandbar height
-
+" Reopen mit sudo
+command W w !sudo tee % > /dev/null
 "Mit F5 Script starten
 au BufEnter * 
 	    \if match( getline(1) , '^\#!') == 0 | 
