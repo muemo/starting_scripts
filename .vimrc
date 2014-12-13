@@ -15,8 +15,12 @@ endif
 filetype plugin indent on
 set number
 set cmdheight=1 "The commandbar height
+
 " Reopen mit sudo
-command W w !sudo tee % > /dev/null
+command W :execute ':silent w !sudo tee % > /dev/null' | :edit!
+command Wq :execute ':W' | :q
+command WQ :Wq
+
 "Mit F5 Script starten
 au BufEnter * 
 	    \if match( getline(1) , '^\#!') == 0 | 
