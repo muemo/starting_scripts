@@ -43,7 +43,8 @@ alias ll='ls -gGht --color=auto'
 # Filemovment
 alias mv='mv -v'
 alias cp='cp -v'
-
+# Copy backups cp -abf filename{,}
+export SIMPLE_BACKUP_SUFFIX=".backup_`date +%F`"
 # Other
 export hpc='fcra008@hpclogin.rrz.uni-hamburg.de'
 alias ..='cd ..'
