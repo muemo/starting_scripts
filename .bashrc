@@ -55,6 +55,9 @@ alias ssx='ssh -X'
 alias hpc_cluster='sshfs fcra008@hpclogin.rrz.uni-hamburg.de:/G/scratch/fcra008 ~/hpc_cluster'
 alias fc_cluster='sshfs fcra007@fc-login.rrz.uni-hamburg.de:moritz ~/fc_cluster'
 alias gt='gedit'
+# Resize Images for PDF
+alias jpg_to_pdf='convert -density 73x73 -quality 10 -compress jpeg *jpg images.pdf'
+
 #PC-spezifische Aliase
 if [ -f ~/.bash_aliases ]; then
         . ~/.bash_aliases
