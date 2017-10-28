@@ -57,6 +57,8 @@ alias fc_cluster='sshfs fcra007@fc-login.rrz.uni-hamburg.de:moritz ~/fc_cluster'
 alias gt='gedit'
 # Resize Images for PDF
 alias jpg_to_pdf='convert -density 73x73 -quality 10 -compress jpeg *jpg images.pdf'
+alias ymp3='youtube-dl -f bestaudio -x'
+alias ydl='youtube-dl -o "%(title)s.%(ext)s"'
 
 #PC-spezifische Aliase
 if [ -f ~/.bash_aliases ]; then
